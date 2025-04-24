@@ -6,7 +6,6 @@
       "name": "Spaudio",
       "description": "Spatial Audio Simulation Tool",
       "default_version": "1.0",
-      "versions": ["1.0"],
       "alias": {"latest": "1.0"},
       "versions": {
         "1.0": {
