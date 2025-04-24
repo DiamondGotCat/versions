@@ -8,9 +8,10 @@
       "default_version": "1.0",
       "versions": ["1.0"],
       "alias": {"latest": "1.0"},
-      "scripts": {
-        "install": "https.get.save(\"https://github.com/DiamondGotCat/Spaudio/archive/refs/heads/main.zip\", \"spaudio.zip\")\nexec.py(\"\"\"from zipfile import ZipFile\nwith ZipFile('spaudio.zip') as zf:\n    zf.extractall(path='spaudio')\"\"\")"
-        
+      "versions": {
+        "1.0": {
+          "install": "https.get.save(\"https://github.com/DiamondGotCat/Spaudio/archive/refs/heads/main.zip\", \"spaudio.zip\")\nexec.py(\"\"\"from zipfile import ZipFile\nwith ZipFile('spaudio.zip') as zf:\n    zf.extractall(path='spaudio')\"\"\")"
+        }
       }
     }
   ]
