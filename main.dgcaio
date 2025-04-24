@@ -1,0 +1,17 @@
+{
+  "last-updated": "0000000000000000000000001011100111111101000001010010001110010001",
+  "packages": [
+    {
+      "id": "spaudio",
+      "name": "Spaudio",
+      "description": "Spatial Audio Simulation Tool",
+      "default_version": "1.0",
+      "versions": ["1.0"],
+      "alias": {"latest": "1.0"},
+      "scripts": {
+        "install": ""
+        
+      }
+    }
+  ]
+}
